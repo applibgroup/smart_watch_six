@@ -1,0 +1,98 @@
+.clockContainer{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: -4%;
+    top: -4%;
+}
+.watch{
+    position:absolute;
+    height: 346px;
+    width: 346px;
+    right: 100%;
+    left: 1px;
+    top: 5px;
+    background-image: url("common/Images/watch-build.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.back{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 328px;
+    width: 328px;
+    background-image: url("common/Images/bg_circle.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mid{
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    background-image: url("common/Images/midcircle.png");
+    background-size: 100%;
+    width: 15px;
+    height: 173px;
+}
+.hour{
+    background-repeat: no-repeat;
+    content: " ";
+    transform: rotate(0deg);
+    position: absolute;
+    right:23%;
+    top: 25%;
+    background-image: url("common/Images/Hour_needle.png");
+    background-size: 100%;
+    width: 58.86px;
+    height: 58.86px;
+    transform-origin: 0% 100%;
+}
+.minute{
+    background-repeat: no-repeat;
+    content: " ";
+    text-size-adjust: 11dp;
+    background-size: 100%;
+    position: absolute;
+    right: 14%;
+    top: 53%;
+    background-image: url("common/Images/minute_needle.png");
+    width: 77.24px;
+    height: 65.52px;
+    transform-origin: 0% -6%;
+}
+.second{
+    background-repeat: no-repeat;
+  background-image: url("common/Images/seconds_dot.png");
+  position: absolute;
+  width: 130px;
+  height:20px;
+  left: 36px;
+  top: 160px;
+  transform-origin: 100% 30%;
+}
+.hourval{
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    text-color: black;
+    left: 33px;
+    top: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.minval{
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 10px;
+    position:absolute;
+    left: 72%;
+    top:69%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.datedisplay{
+    color: white;
+    top: 14%;
+    left: 20%;
+}

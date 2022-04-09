@@ -1,0 +1,16 @@
+
+		<div class="clockContainer">
+			<div class="watch">
+			<div class="back">
+			<div class="hour">
+				<div class="hourval">HHHHH</div>
+			</div>
+			<div class="minute">
+				<div class="minval">MMMM</div>
+			</div>
+			<div class="second"></div>
+			<div class="mid"></div>
+			<div class="datedisplay">02 Feb | Monday</div>
+		 </div>
+		</div>
+		</div>
